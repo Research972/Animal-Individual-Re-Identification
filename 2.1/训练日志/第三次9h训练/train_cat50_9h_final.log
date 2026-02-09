@@ -1,0 +1,657 @@
+Device: mps
+Identities: 50
+Train images: 2737  Test images: 707
+[DEBUG] model param device = mps:0
+Saving best checkpoint to: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 001 Iter 000 | loss=0.0833
+Epoch 001 Iter 020 | loss=0.0227
+Epoch 001 Iter 040 | loss=0.0810
+Epoch 001 Iter 060 | loss=0.0169
+Epoch 001 Iter 080 | loss=0.0082
+Epoch 001 Iter 100 | loss=0.0000
+[Epoch 001] loss=0.0379 | R1=0.9519 | mAP=0.8961 | train=3.3min | eval=4.7min | total=8.0min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.8961)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 002 Iter 000 | loss=0.0000
+Epoch 002 Iter 020 | loss=0.0000
+Epoch 002 Iter 040 | loss=0.0000
+Epoch 002 Iter 060 | loss=0.0075
+Epoch 002 Iter 080 | loss=0.0000
+Epoch 002 Iter 100 | loss=0.0148
+[Epoch 002] loss=0.0133 | R1=0.9576 | mAP=0.9221 | train=3.2min | eval=4.7min | total=7.9min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9221)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 003 Iter 000 | loss=0.0000
+Epoch 003 Iter 020 | loss=0.0000
+Epoch 003 Iter 040 | loss=0.0009
+Epoch 003 Iter 060 | loss=0.0000
+Epoch 003 Iter 080 | loss=0.0190
+Epoch 003 Iter 100 | loss=0.0318
+[Epoch 003] loss=0.0110 | R1=0.9590 | mAP=0.9343 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9343)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 004 Iter 000 | loss=0.0003
+Epoch 004 Iter 020 | loss=0.0065
+Epoch 004 Iter 040 | loss=0.0000
+Epoch 004 Iter 060 | loss=0.0000
+Epoch 004 Iter 080 | loss=0.0000
+Epoch 004 Iter 100 | loss=0.0000
+[Epoch 004] loss=0.0054 | R1=0.9547 | mAP=0.9401 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9401)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 005 Iter 000 | loss=0.0011
+Epoch 005 Iter 020 | loss=0.0000
+Epoch 005 Iter 040 | loss=0.0059
+Epoch 005 Iter 060 | loss=0.0000
+Epoch 005 Iter 080 | loss=0.0000
+Epoch 005 Iter 100 | loss=0.0044
+[Epoch 005] loss=0.0037 | R1=0.9590 | mAP=0.9456 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9456)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 006 Iter 000 | loss=0.0000
+Epoch 006 Iter 020 | loss=0.0004
+Epoch 006 Iter 040 | loss=0.0000
+Epoch 006 Iter 060 | loss=0.0000
+Epoch 006 Iter 080 | loss=0.0000
+Epoch 006 Iter 100 | loss=0.0044
+[Epoch 006] loss=0.0059 | R1=0.9547 | mAP=0.9523 | train=3.2min | eval=4.7min | total=7.9min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9523)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 007 Iter 000 | loss=0.0000
+Epoch 007 Iter 020 | loss=0.0000
+Epoch 007 Iter 040 | loss=0.0000
+Epoch 007 Iter 060 | loss=0.0000
+Epoch 007 Iter 080 | loss=0.0000
+Epoch 007 Iter 100 | loss=0.0000
+[Epoch 007] loss=0.0061 | R1=0.9604 | mAP=0.9456 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 008 Iter 000 | loss=0.0000
+Epoch 008 Iter 020 | loss=0.0000
+Epoch 008 Iter 040 | loss=0.0000
+Epoch 008 Iter 060 | loss=0.0000
+Epoch 008 Iter 080 | loss=0.0064
+Epoch 008 Iter 100 | loss=0.0647
+[Epoch 008] loss=0.0079 | R1=0.9618 | mAP=0.9474 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 009 Iter 000 | loss=0.0022
+Epoch 009 Iter 020 | loss=0.0000
+Epoch 009 Iter 040 | loss=0.0000
+Epoch 009 Iter 060 | loss=0.0000
+Epoch 009 Iter 080 | loss=0.0000
+Epoch 009 Iter 100 | loss=0.0000
+[Epoch 009] loss=0.0079 | R1=0.9590 | mAP=0.9449 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 010 Iter 000 | loss=0.0000
+Epoch 010 Iter 020 | loss=0.0000
+Epoch 010 Iter 040 | loss=0.0000
+Epoch 010 Iter 060 | loss=0.0000
+Epoch 010 Iter 080 | loss=0.0038
+Epoch 010 Iter 100 | loss=0.0000
+[Epoch 010] loss=0.0044 | R1=0.9533 | mAP=0.9541 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9541)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 011 Iter 000 | loss=0.0000
+Epoch 011 Iter 020 | loss=0.0000
+Epoch 011 Iter 040 | loss=0.0384
+Epoch 011 Iter 060 | loss=0.0000
+Epoch 011 Iter 080 | loss=0.0053
+Epoch 011 Iter 100 | loss=0.0000
+[Epoch 011] loss=0.0059 | R1=0.9547 | mAP=0.9487 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 012 Iter 000 | loss=0.0000
+Epoch 012 Iter 020 | loss=0.0050
+Epoch 012 Iter 040 | loss=0.0000
+Epoch 012 Iter 060 | loss=0.0000
+Epoch 012 Iter 080 | loss=0.0000
+Epoch 012 Iter 100 | loss=0.0000
+[Epoch 012] loss=0.0053 | R1=0.9576 | mAP=0.9521 | train=3.1min | eval=4.8min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 013 Iter 000 | loss=0.0140
+Epoch 013 Iter 020 | loss=0.0000
+Epoch 013 Iter 040 | loss=0.0000
+Epoch 013 Iter 060 | loss=0.0000
+Epoch 013 Iter 080 | loss=0.0000
+Epoch 013 Iter 100 | loss=0.0000
+[Epoch 013] loss=0.0037 | R1=0.9632 | mAP=0.9499 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 014 Iter 000 | loss=0.0000
+Epoch 014 Iter 020 | loss=0.0000
+Epoch 014 Iter 040 | loss=0.0000
+Epoch 014 Iter 060 | loss=0.0000
+Epoch 014 Iter 080 | loss=0.0520
+Epoch 014 Iter 100 | loss=0.0000
+[Epoch 014] loss=0.0062 | R1=0.9618 | mAP=0.9425 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 015 Iter 000 | loss=0.0007
+Epoch 015 Iter 020 | loss=0.0000
+Epoch 015 Iter 040 | loss=0.0000
+Epoch 015 Iter 060 | loss=0.0000
+Epoch 015 Iter 080 | loss=0.0808
+Epoch 015 Iter 100 | loss=0.0000
+[Epoch 015] loss=0.0043 | R1=0.9646 | mAP=0.9499 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 016 Iter 000 | loss=0.0000
+Epoch 016 Iter 020 | loss=0.0000
+Epoch 016 Iter 040 | loss=0.0000
+Epoch 016 Iter 060 | loss=0.0009
+Epoch 016 Iter 080 | loss=0.0000
+Epoch 016 Iter 100 | loss=0.0000
+[Epoch 016] loss=0.0050 | R1=0.9562 | mAP=0.9439 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 017 Iter 000 | loss=0.0021
+Epoch 017 Iter 020 | loss=0.0000
+Epoch 017 Iter 040 | loss=0.0008
+Epoch 017 Iter 060 | loss=0.0000
+Epoch 017 Iter 080 | loss=0.0000
+Epoch 017 Iter 100 | loss=0.0002
+[Epoch 017] loss=0.0041 | R1=0.9590 | mAP=0.9531 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 018 Iter 000 | loss=0.0000
+Epoch 018 Iter 020 | loss=0.0000
+Epoch 018 Iter 040 | loss=0.0000
+Epoch 018 Iter 060 | loss=0.0116
+Epoch 018 Iter 080 | loss=0.0000
+Epoch 018 Iter 100 | loss=0.0099
+[Epoch 018] loss=0.0040 | R1=0.9590 | mAP=0.9478 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 019 Iter 000 | loss=0.0000
+Epoch 019 Iter 020 | loss=0.0000
+Epoch 019 Iter 040 | loss=0.0000
+Epoch 019 Iter 060 | loss=0.0000
+Epoch 019 Iter 080 | loss=0.0000
+Epoch 019 Iter 100 | loss=0.0000
+[Epoch 019] loss=0.0053 | R1=0.9632 | mAP=0.9480 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 020 Iter 000 | loss=0.0000
+Epoch 020 Iter 020 | loss=0.0000
+Epoch 020 Iter 040 | loss=0.0715
+Epoch 020 Iter 060 | loss=0.0000
+Epoch 020 Iter 080 | loss=0.0146
+Epoch 020 Iter 100 | loss=0.0000
+[Epoch 020] loss=0.0073 | R1=0.9632 | mAP=0.9495 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 021 Iter 000 | loss=0.0000
+Epoch 021 Iter 020 | loss=0.0000
+Epoch 021 Iter 040 | loss=0.0000
+Epoch 021 Iter 060 | loss=0.0000
+Epoch 021 Iter 080 | loss=0.0000
+Epoch 021 Iter 100 | loss=0.0000
+[Epoch 021] loss=0.0054 | R1=0.9661 | mAP=0.9504 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 022 Iter 000 | loss=0.0000
+Epoch 022 Iter 020 | loss=0.0000
+Epoch 022 Iter 040 | loss=0.0000
+Epoch 022 Iter 060 | loss=0.0000
+Epoch 022 Iter 080 | loss=0.0068
+Epoch 022 Iter 100 | loss=0.0000
+[Epoch 022] loss=0.0042 | R1=0.9646 | mAP=0.9427 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 023 Iter 000 | loss=0.0386
+Epoch 023 Iter 020 | loss=0.0360
+Epoch 023 Iter 040 | loss=0.0000
+Epoch 023 Iter 060 | loss=0.0000
+Epoch 023 Iter 080 | loss=0.0000
+Epoch 023 Iter 100 | loss=0.0000
+[Epoch 023] loss=0.0084 | R1=0.9661 | mAP=0.9422 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 024 Iter 000 | loss=0.0000
+Epoch 024 Iter 020 | loss=0.0015
+Epoch 024 Iter 040 | loss=0.0000
+Epoch 024 Iter 060 | loss=0.0000
+Epoch 024 Iter 080 | loss=0.0555
+Epoch 024 Iter 100 | loss=0.0000
+[Epoch 024] loss=0.0068 | R1=0.9646 | mAP=0.9514 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 025 Iter 000 | loss=0.0000
+Epoch 025 Iter 020 | loss=0.0000
+Epoch 025 Iter 040 | loss=0.0000
+Epoch 025 Iter 060 | loss=0.0000
+Epoch 025 Iter 080 | loss=0.0000
+Epoch 025 Iter 100 | loss=0.0000
+[Epoch 025] loss=0.0043 | R1=0.9646 | mAP=0.9524 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 026 Iter 000 | loss=0.0000
+Epoch 026 Iter 020 | loss=0.0000
+Epoch 026 Iter 040 | loss=0.0000
+Epoch 026 Iter 060 | loss=0.0000
+Epoch 026 Iter 080 | loss=0.0000
+Epoch 026 Iter 100 | loss=0.0000
+[Epoch 026] loss=0.0044 | R1=0.9533 | mAP=0.9487 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 027 Iter 000 | loss=0.0000
+Epoch 027 Iter 020 | loss=0.0000
+Epoch 027 Iter 040 | loss=0.0000
+Epoch 027 Iter 060 | loss=0.0000
+Epoch 027 Iter 080 | loss=0.0000
+Epoch 027 Iter 100 | loss=0.0000
+[Epoch 027] loss=0.0051 | R1=0.9675 | mAP=0.9475 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 028 Iter 000 | loss=0.0000
+Epoch 028 Iter 020 | loss=0.0000
+Epoch 028 Iter 040 | loss=0.0000
+Epoch 028 Iter 060 | loss=0.0000
+Epoch 028 Iter 080 | loss=0.0127
+Epoch 028 Iter 100 | loss=0.0653
+[Epoch 028] loss=0.0048 | R1=0.9675 | mAP=0.9387 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 029 Iter 000 | loss=0.0000
+Epoch 029 Iter 020 | loss=0.0000
+Epoch 029 Iter 040 | loss=0.0000
+Epoch 029 Iter 060 | loss=0.0000
+Epoch 029 Iter 080 | loss=0.0000
+Epoch 029 Iter 100 | loss=0.0000
+[Epoch 029] loss=0.0050 | R1=0.9604 | mAP=0.9345 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 030 Iter 000 | loss=0.0022
+Epoch 030 Iter 020 | loss=0.0129
+Epoch 030 Iter 040 | loss=0.0049
+Epoch 030 Iter 060 | loss=0.0000
+Epoch 030 Iter 080 | loss=0.0000
+Epoch 030 Iter 100 | loss=0.0000
+[Epoch 030] loss=0.0060 | R1=0.9661 | mAP=0.9482 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 031 Iter 000 | loss=0.0000
+Epoch 031 Iter 020 | loss=0.0057
+Epoch 031 Iter 040 | loss=0.0000
+Epoch 031 Iter 060 | loss=0.0000
+Epoch 031 Iter 080 | loss=0.0000
+Epoch 031 Iter 100 | loss=0.0000
+[Epoch 031] loss=0.0062 | R1=0.9547 | mAP=0.9527 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 032 Iter 000 | loss=0.0000
+Epoch 032 Iter 020 | loss=0.0000
+Epoch 032 Iter 040 | loss=0.0077
+Epoch 032 Iter 060 | loss=0.0000
+Epoch 032 Iter 080 | loss=0.0000
+Epoch 032 Iter 100 | loss=0.0003
+[Epoch 032] loss=0.0029 | R1=0.9632 | mAP=0.9492 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 033 Iter 000 | loss=0.0000
+Epoch 033 Iter 020 | loss=0.0000
+Epoch 033 Iter 040 | loss=0.0003
+Epoch 033 Iter 060 | loss=0.0000
+Epoch 033 Iter 080 | loss=0.0000
+Epoch 033 Iter 100 | loss=0.0000
+[Epoch 033] loss=0.0033 | R1=0.9689 | mAP=0.9472 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 034 Iter 000 | loss=0.0000
+Epoch 034 Iter 020 | loss=0.0138
+Epoch 034 Iter 040 | loss=0.0695
+Epoch 034 Iter 060 | loss=0.0748
+Epoch 034 Iter 080 | loss=0.0000
+Epoch 034 Iter 100 | loss=0.0000
+[Epoch 034] loss=0.0060 | R1=0.9618 | mAP=0.9495 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 035 Iter 000 | loss=0.0000
+Epoch 035 Iter 020 | loss=0.0000
+Epoch 035 Iter 040 | loss=0.0000
+Epoch 035 Iter 060 | loss=0.0000
+Epoch 035 Iter 080 | loss=0.0000
+Epoch 035 Iter 100 | loss=0.0000
+[Epoch 035] loss=0.0051 | R1=0.9562 | mAP=0.9432 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 036 Iter 000 | loss=0.0069
+Epoch 036 Iter 020 | loss=0.0000
+Epoch 036 Iter 040 | loss=0.0000
+Epoch 036 Iter 060 | loss=0.0000
+Epoch 036 Iter 080 | loss=0.0000
+Epoch 036 Iter 100 | loss=0.0000
+[Epoch 036] loss=0.0053 | R1=0.9562 | mAP=0.9442 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 037 Iter 000 | loss=0.0000
+Epoch 037 Iter 020 | loss=0.0000
+Epoch 037 Iter 040 | loss=0.0000
+Epoch 037 Iter 060 | loss=0.0143
+Epoch 037 Iter 080 | loss=0.0000
+Epoch 037 Iter 100 | loss=0.0000
+[Epoch 037] loss=0.0031 | R1=0.9519 | mAP=0.9400 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 038 Iter 000 | loss=0.0282
+Epoch 038 Iter 020 | loss=0.0000
+Epoch 038 Iter 040 | loss=0.0000
+Epoch 038 Iter 060 | loss=0.0000
+Epoch 038 Iter 080 | loss=0.0000
+Epoch 038 Iter 100 | loss=0.0000
+[Epoch 038] loss=0.0028 | R1=0.9576 | mAP=0.9434 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 039 Iter 000 | loss=0.0000
+Epoch 039 Iter 020 | loss=0.0590
+Epoch 039 Iter 040 | loss=0.0000
+Epoch 039 Iter 060 | loss=0.0000
+Epoch 039 Iter 080 | loss=0.0000
+Epoch 039 Iter 100 | loss=0.0000
+[Epoch 039] loss=0.0046 | R1=0.9491 | mAP=0.9417 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 040 Iter 000 | loss=0.0000
+Epoch 040 Iter 020 | loss=0.0000
+Epoch 040 Iter 040 | loss=0.0000
+Epoch 040 Iter 060 | loss=0.0000
+Epoch 040 Iter 080 | loss=0.0000
+Epoch 040 Iter 100 | loss=0.0000
+[Epoch 040] loss=0.0030 | R1=0.9646 | mAP=0.9451 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 041 Iter 000 | loss=0.0000
+Epoch 041 Iter 020 | loss=0.0180
+Epoch 041 Iter 040 | loss=0.0000
+Epoch 041 Iter 060 | loss=0.0000
+Epoch 041 Iter 080 | loss=0.0000
+Epoch 041 Iter 100 | loss=0.0430
+[Epoch 041] loss=0.0060 | R1=0.9533 | mAP=0.9356 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 042 Iter 000 | loss=0.0000
+Epoch 042 Iter 020 | loss=0.0014
+Epoch 042 Iter 040 | loss=0.0000
+Epoch 042 Iter 060 | loss=0.0000
+Epoch 042 Iter 080 | loss=0.0000
+Epoch 042 Iter 100 | loss=0.0000
+[Epoch 042] loss=0.0095 | R1=0.9562 | mAP=0.9452 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 043 Iter 000 | loss=0.0000
+Epoch 043 Iter 020 | loss=0.0000
+Epoch 043 Iter 040 | loss=0.0000
+Epoch 043 Iter 060 | loss=0.0000
+Epoch 043 Iter 080 | loss=0.0000
+Epoch 043 Iter 100 | loss=0.0000
+[Epoch 043] loss=0.0063 | R1=0.9590 | mAP=0.9475 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 044 Iter 000 | loss=0.0000
+Epoch 044 Iter 020 | loss=0.0000
+Epoch 044 Iter 040 | loss=0.0000
+Epoch 044 Iter 060 | loss=0.0000
+Epoch 044 Iter 080 | loss=0.0000
+Epoch 044 Iter 100 | loss=0.0000
+[Epoch 044] loss=0.0054 | R1=0.9576 | mAP=0.9490 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 045 Iter 000 | loss=0.0000
+Epoch 045 Iter 020 | loss=0.0000
+Epoch 045 Iter 040 | loss=0.0000
+Epoch 045 Iter 060 | loss=0.0000
+Epoch 045 Iter 080 | loss=0.0000
+Epoch 045 Iter 100 | loss=0.0000
+[Epoch 045] loss=0.0045 | R1=0.9661 | mAP=0.9417 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 046 Iter 000 | loss=0.0000
+Epoch 046 Iter 020 | loss=0.0418
+Epoch 046 Iter 040 | loss=0.0000
+Epoch 046 Iter 060 | loss=0.0000
+Epoch 046 Iter 080 | loss=0.0000
+Epoch 046 Iter 100 | loss=0.0000
+[Epoch 046] loss=0.0043 | R1=0.9576 | mAP=0.9392 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 047 Iter 000 | loss=0.0000
+Epoch 047 Iter 020 | loss=0.0000
+Epoch 047 Iter 040 | loss=0.0000
+Epoch 047 Iter 060 | loss=0.0000
+Epoch 047 Iter 080 | loss=0.0000
+Epoch 047 Iter 100 | loss=0.0000
+[Epoch 047] loss=0.0045 | R1=0.9618 | mAP=0.9397 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 048 Iter 000 | loss=0.0059
+Epoch 048 Iter 020 | loss=0.0000
+Epoch 048 Iter 040 | loss=0.0235
+Epoch 048 Iter 060 | loss=0.0000
+Epoch 048 Iter 080 | loss=0.0000
+Epoch 048 Iter 100 | loss=0.0000
+[Epoch 048] loss=0.0035 | R1=0.9661 | mAP=0.9487 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 049 Iter 000 | loss=0.0000
+Epoch 049 Iter 020 | loss=0.0000
+Epoch 049 Iter 040 | loss=0.0053
+Epoch 049 Iter 060 | loss=0.0000
+Epoch 049 Iter 080 | loss=0.0000
+Epoch 049 Iter 100 | loss=0.0000
+[Epoch 049] loss=0.0019 | R1=0.9590 | mAP=0.9453 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 050 Iter 000 | loss=0.0000
+Epoch 050 Iter 020 | loss=0.0000
+Epoch 050 Iter 040 | loss=0.0000
+Epoch 050 Iter 060 | loss=0.0000
+Epoch 050 Iter 080 | loss=0.0000
+Epoch 050 Iter 100 | loss=0.0010
+[Epoch 050] loss=0.0036 | R1=0.9562 | mAP=0.9530 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 051 Iter 000 | loss=0.0000
+Epoch 051 Iter 020 | loss=0.0000
+Epoch 051 Iter 040 | loss=0.0000
+Epoch 051 Iter 060 | loss=0.0000
+Epoch 051 Iter 080 | loss=0.0000
+Epoch 051 Iter 100 | loss=0.0875
+[Epoch 051] loss=0.0015 | R1=0.9576 | mAP=0.9545 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9545)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 052 Iter 000 | loss=0.0021
+Epoch 052 Iter 020 | loss=0.0000
+Epoch 052 Iter 040 | loss=0.0062
+Epoch 052 Iter 060 | loss=0.0000
+Epoch 052 Iter 080 | loss=0.0000
+Epoch 052 Iter 100 | loss=0.0000
+[Epoch 052] loss=0.0030 | R1=0.9576 | mAP=0.9380 | train=3.1min | eval=4.7min | total=7.7min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 053 Iter 000 | loss=0.0000
+Epoch 053 Iter 020 | loss=0.0000
+Epoch 053 Iter 040 | loss=0.0000
+Epoch 053 Iter 060 | loss=0.0000
+Epoch 053 Iter 080 | loss=0.0000
+Epoch 053 Iter 100 | loss=0.0000
+[Epoch 053] loss=0.0030 | R1=0.9590 | mAP=0.9478 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 054 Iter 000 | loss=0.0000
+Epoch 054 Iter 020 | loss=0.0000
+Epoch 054 Iter 040 | loss=0.0000
+Epoch 054 Iter 060 | loss=0.0132
+Epoch 054 Iter 080 | loss=0.0000
+Epoch 054 Iter 100 | loss=0.0000
+[Epoch 054] loss=0.0066 | R1=0.9618 | mAP=0.9519 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 055 Iter 000 | loss=0.0000
+Epoch 055 Iter 020 | loss=0.0000
+Epoch 055 Iter 040 | loss=0.0000
+Epoch 055 Iter 060 | loss=0.0000
+Epoch 055 Iter 080 | loss=0.0000
+Epoch 055 Iter 100 | loss=0.0249
+[Epoch 055] loss=0.0034 | R1=0.9590 | mAP=0.9517 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 056 Iter 000 | loss=0.0000
+Epoch 056 Iter 020 | loss=0.0000
+Epoch 056 Iter 040 | loss=0.0000
+Epoch 056 Iter 060 | loss=0.0000
+Epoch 056 Iter 080 | loss=0.0000
+Epoch 056 Iter 100 | loss=0.0000
+[Epoch 056] loss=0.0011 | R1=0.9618 | mAP=0.9532 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 057 Iter 000 | loss=0.0000
+Epoch 057 Iter 020 | loss=0.0000
+Epoch 057 Iter 040 | loss=0.0000
+Epoch 057 Iter 060 | loss=0.0000
+Epoch 057 Iter 080 | loss=0.0000
+Epoch 057 Iter 100 | loss=0.0623
+[Epoch 057] loss=0.0033 | R1=0.9491 | mAP=0.9527 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 058 Iter 000 | loss=0.0000
+Epoch 058 Iter 020 | loss=0.0000
+Epoch 058 Iter 040 | loss=0.0000
+Epoch 058 Iter 060 | loss=0.0744
+Epoch 058 Iter 080 | loss=0.0626
+Epoch 058 Iter 100 | loss=0.0000
+[Epoch 058] loss=0.0032 | R1=0.9661 | mAP=0.9556 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9556)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 059 Iter 000 | loss=0.0030
+Epoch 059 Iter 020 | loss=0.0000
+Epoch 059 Iter 040 | loss=0.0680
+Epoch 059 Iter 060 | loss=0.0000
+Epoch 059 Iter 080 | loss=0.0000
+Epoch 059 Iter 100 | loss=0.0000
+[Epoch 059] loss=0.0044 | R1=0.9604 | mAP=0.9489 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 060 Iter 000 | loss=0.0000
+Epoch 060 Iter 020 | loss=0.0000
+Epoch 060 Iter 040 | loss=0.0000
+Epoch 060 Iter 060 | loss=0.0000
+Epoch 060 Iter 080 | loss=0.0000
+Epoch 060 Iter 100 | loss=0.0000
+[Epoch 060] loss=0.0072 | R1=0.9448 | mAP=0.9518 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 061 Iter 000 | loss=0.0000
+Epoch 061 Iter 020 | loss=0.0000
+Epoch 061 Iter 040 | loss=0.0000
+Epoch 061 Iter 060 | loss=0.0000
+Epoch 061 Iter 080 | loss=0.0082
+Epoch 061 Iter 100 | loss=0.0000
+[Epoch 061] loss=0.0042 | R1=0.9632 | mAP=0.9396 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 062 Iter 000 | loss=0.0000
+Epoch 062 Iter 020 | loss=0.0000
+Epoch 062 Iter 040 | loss=0.0000
+Epoch 062 Iter 060 | loss=0.0000
+Epoch 062 Iter 080 | loss=0.0000
+Epoch 062 Iter 100 | loss=0.0000
+[Epoch 062] loss=0.0052 | R1=0.9533 | mAP=0.9541 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 063 Iter 000 | loss=0.0584
+Epoch 063 Iter 020 | loss=0.0000
+Epoch 063 Iter 040 | loss=0.0000
+Epoch 063 Iter 060 | loss=0.0000
+Epoch 063 Iter 080 | loss=0.0000
+Epoch 063 Iter 100 | loss=0.0000
+[Epoch 063] loss=0.0047 | R1=0.9618 | mAP=0.9347 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 064 Iter 000 | loss=0.0000
+Epoch 064 Iter 020 | loss=0.0000
+Epoch 064 Iter 040 | loss=0.0000
+Epoch 064 Iter 060 | loss=0.0590
+Epoch 064 Iter 080 | loss=0.0000
+Epoch 064 Iter 100 | loss=0.0338
+[Epoch 064] loss=0.0087 | R1=0.9604 | mAP=0.9483 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 065 Iter 000 | loss=0.0000
+Epoch 065 Iter 020 | loss=0.0205
+Epoch 065 Iter 040 | loss=0.0269
+Epoch 065 Iter 060 | loss=0.0099
+Epoch 065 Iter 080 | loss=0.0000
+Epoch 065 Iter 100 | loss=0.0000
+[Epoch 065] loss=0.0067 | R1=0.9519 | mAP=0.9467 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 066 Iter 000 | loss=0.0000
+Epoch 066 Iter 020 | loss=0.0000
+Epoch 066 Iter 040 | loss=0.0000
+Epoch 066 Iter 060 | loss=0.0000
+Epoch 066 Iter 080 | loss=0.0000
+Epoch 066 Iter 100 | loss=0.0000
+[Epoch 066] loss=0.0038 | R1=0.9505 | mAP=0.9571 | train=3.2min | eval=4.7min | total=7.9min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9571)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 067 Iter 000 | loss=0.0000
+Epoch 067 Iter 020 | loss=0.0000
+Epoch 067 Iter 040 | loss=0.0000
+Epoch 067 Iter 060 | loss=0.0000
+Epoch 067 Iter 080 | loss=0.0000
+Epoch 067 Iter 100 | loss=0.0000
+[Epoch 067] loss=0.0041 | R1=0.9632 | mAP=0.9568 | train=3.1min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 068 Iter 000 | loss=0.0000
+Epoch 068 Iter 020 | loss=0.0000
+Epoch 068 Iter 040 | loss=0.0000
+Epoch 068 Iter 060 | loss=0.0000
+Epoch 068 Iter 080 | loss=0.0000
+Epoch 068 Iter 100 | loss=0.0000
+[Epoch 068] loss=0.0037 | R1=0.9576 | mAP=0.9434 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 069 Iter 000 | loss=0.0000
+Epoch 069 Iter 020 | loss=0.0000
+Epoch 069 Iter 040 | loss=0.0000
+Epoch 069 Iter 060 | loss=0.0000
+Epoch 069 Iter 080 | loss=0.0000
+Epoch 069 Iter 100 | loss=0.0000
+[Epoch 069] loss=0.0026 | R1=0.9576 | mAP=0.9521 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 070 Iter 000 | loss=0.0166
+Epoch 070 Iter 020 | loss=0.0000
+Epoch 070 Iter 040 | loss=0.0000
+Epoch 070 Iter 060 | loss=0.0000
+Epoch 070 Iter 080 | loss=0.0000
+Epoch 070 Iter 100 | loss=0.0510
+[Epoch 070] loss=0.0041 | R1=0.9661 | mAP=0.9501 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 071 Iter 000 | loss=0.0000
+Epoch 071 Iter 020 | loss=0.0000
+Epoch 071 Iter 040 | loss=0.0573
+Epoch 071 Iter 060 | loss=0.0000
+Epoch 071 Iter 080 | loss=0.0000
+Epoch 071 Iter 100 | loss=0.0000
+[Epoch 071] loss=0.0058 | R1=0.9604 | mAP=0.9524 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 072 Iter 000 | loss=0.0000
+Epoch 072 Iter 020 | loss=0.0000
+Epoch 072 Iter 040 | loss=0.0113
+Epoch 072 Iter 060 | loss=0.0000
+Epoch 072 Iter 080 | loss=0.0000
+Epoch 072 Iter 100 | loss=0.0000
+[Epoch 072] loss=0.0037 | R1=0.9562 | mAP=0.9578 | train=3.1min | eval=4.7min | total=7.8min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9578)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 073 Iter 000 | loss=0.0000
+Epoch 073 Iter 020 | loss=0.0000
+Epoch 073 Iter 040 | loss=0.0000
+Epoch 073 Iter 060 | loss=0.0000
+Epoch 073 Iter 080 | loss=0.0000
+Epoch 073 Iter 100 | loss=0.0094
+[Epoch 073] loss=0.0022 | R1=0.9576 | mAP=0.9523 | train=3.1min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 074 Iter 000 | loss=0.0000
+Epoch 074 Iter 020 | loss=0.0609
+Epoch 074 Iter 040 | loss=0.0000
+Epoch 074 Iter 060 | loss=0.0000
+Epoch 074 Iter 080 | loss=0.0000
+Epoch 074 Iter 100 | loss=0.0953
+[Epoch 074] loss=0.0050 | R1=0.9547 | mAP=0.9522 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 075 Iter 000 | loss=0.0615
+Epoch 075 Iter 020 | loss=0.0000
+Epoch 075 Iter 040 | loss=0.0039
+Epoch 075 Iter 060 | loss=0.0000
+Epoch 075 Iter 080 | loss=0.0000
+Epoch 075 Iter 100 | loss=0.0000
+[Epoch 075] loss=0.0062 | R1=0.9604 | mAP=0.9557 | train=3.2min | eval=4.7min | total=7.9min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 076 Iter 000 | loss=0.0000
+Epoch 076 Iter 020 | loss=0.0000
+Epoch 076 Iter 040 | loss=0.0766
+Epoch 076 Iter 060 | loss=0.0000
+Epoch 076 Iter 080 | loss=0.0000
+Epoch 076 Iter 100 | loss=0.0000
+[Epoch 076] loss=0.0034 | R1=0.9590 | mAP=0.9564 | train=3.2min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 077 Iter 000 | loss=0.0000
+Epoch 077 Iter 020 | loss=0.0000
+Epoch 077 Iter 040 | loss=0.0000
+Epoch 077 Iter 060 | loss=0.0000
+Epoch 077 Iter 080 | loss=0.0000
+Epoch 077 Iter 100 | loss=0.0000
+[Epoch 077] loss=0.0037 | R1=0.9604 | mAP=0.9567 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 078 Iter 000 | loss=0.0000
+Epoch 078 Iter 020 | loss=0.0000
+Epoch 078 Iter 040 | loss=0.0000
+Epoch 078 Iter 060 | loss=0.0573
+Epoch 078 Iter 080 | loss=0.0000
+Epoch 078 Iter 100 | loss=0.0000
+[Epoch 078] loss=0.0018 | R1=0.9533 | mAP=0.9554 | train=3.1min | eval=4.7min | total=7.8min
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 079 Iter 000 | loss=0.0000
+Epoch 079 Iter 020 | loss=0.0000
+Epoch 079 Iter 040 | loss=0.0000
+Epoch 079 Iter 060 | loss=0.0000
+Epoch 079 Iter 080 | loss=0.0000
+Epoch 079 Iter 100 | loss=0.0000
+[Epoch 079] loss=0.0036 | R1=0.9604 | mAP=0.9586 | train=3.2min | eval=4.7min | total=7.9min
+[OK] Saved BEST: checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt  (mAP=0.9586)
+[DEBUG] batch x device: mps:0 y device: mps:0
+Epoch 080 Iter 000 | loss=0.0000
+Epoch 080 Iter 020 | loss=0.0000
+Epoch 080 Iter 040 | loss=0.0000
+Epoch 080 Iter 060 | loss=0.0000
+Epoch 080 Iter 080 | loss=0.0000
+Epoch 080 Iter 100 | loss=0.0000
+[Epoch 080] loss=0.0036 | R1=0.9505 | mAP=0.8516 | train=3.2min | eval=4.7min | total=7.9min
