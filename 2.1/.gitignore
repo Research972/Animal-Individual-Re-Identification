@@ -1,0 +1,9 @@
+checkpoints/
+outputs/
+runs/
+logs/
+data/
+datasets/
+__pycache__/
+*.pyc
+.DS_Store
