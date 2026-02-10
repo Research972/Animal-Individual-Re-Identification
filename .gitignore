@@ -4,9 +4,12 @@
 2.1/data/
 2.1/cat50/
 2.1/checkpoints/
-2.1/outputs/
 2.1/runs/
 2.1/logs/
+
+2.1/outputs/*
+!2.1/outputs/emb_test_pca.png
+!2.1/outputs/emb_test_tsne.png
 
 # generic
 __pycache__/
