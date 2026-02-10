@@ -1,0 +1,14 @@
+# big assets
+2.1/data_cat50_big/
+2.1/datasets/
+2.1/data/
+2.1/cat50/
+2.1/checkpoints/
+2.1/outputs/
+2.1/runs/
+2.1/logs/
+
+# generic
+__pycache__/
+*.pyc
+.DS_Store
