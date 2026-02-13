@@ -3,7 +3,11 @@
 2.1/datasets/
 2.1/data/
 2.1/cat50/
-2.1/checkpoints/
+
+2.1/checkpoints/*
+!2.1/checkpoints/best_cat50_P8K2_lr1p5e4_margin0p22_9h_final.pt
+!2.1/checkpoints/vector_db_cat50_final.pt
+
 2.1/runs/
 2.1/logs/
 
